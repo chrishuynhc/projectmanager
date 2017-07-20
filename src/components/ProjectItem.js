@@ -15,4 +15,8 @@ class ProjectItem extends Component {
   }
 }
 
+ProjectItem.propTypes = {
+    project: React.PropTypes.object
+}
+
 export default ProjectItem;
